@@ -1,0 +1,3 @@
+install:
+  - FILE="-Dfile=mylib-release-1.0.aar"
+  - mvn install:install-file $FILE -DgroupId=com.gitlqr -DartifactId=mylib-release -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
